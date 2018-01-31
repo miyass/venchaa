@@ -9,10 +9,18 @@ class Header extends Component {
       <header>
         <nav>
           <ul className="headerMenu">
-            <li className="headerList headerProfile">About me</li>
-            <li className="headerList headerCareer">Career</li>
-            <li className="headerList headerPortfolio">Portfolio</li>
-            <li className="headerList headerContact">Contact</li>
+            <li className="headerList headerProfile">
+              <a href="#profile" className="innerLink">About me</a>
+            </li>
+            <li className="headerList headerCareer">
+              <a href="#career" className="innerLink">Career</a>
+            </li>
+            <li className="headerList headerPortfolio">
+              <a href="#portfolio" className="innerLink">Portfolio</a>
+            </li>
+            <li className="headerList headerContact">
+              <a href="#contact" className="innerLink">Contact</a>
+            </li>
           </ul>
         </nav>
       </header>

@@ -37,3 +37,11 @@ table {
   border-spacing: 0;
 }
 /* ここまで */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
