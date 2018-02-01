@@ -1,48 +1,168 @@
-header {
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  z-index: 100;
-  /* background-color: #49C4D3; */
+@media screen and (min-width: 938px) {
+  header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+    /* background-color: #49C4D3; */
+  }
+
+  .headerMenu {
+    text-align: center;
+    background: rgba(48,145,255, 0.5);
+    padding-bottom: 30px;
+  }
+
+  .headerList {
+    display: inline-block;
+    margin-top: 40px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .headerProfile {
+    margin-right: 50px;
+  }
+
+  .innerLargeLink:link {
+    color: white;
+  }
+
+  .innerLargeLink:visited {
+    color: white;
+  }
+
+  .innerSmallLink {
+    display: none;
+  }
+
+  .headerCareer {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .headerPortfolio {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .headerContact {
+    margin-left: 50px;
+  }
 }
 
-.headerMenu {
-  text-align: center;
-  background: rgba(48,145,255, 0.5);
-  padding-bottom: 30px;
+@media only screen and (min-width: 700px) and (max-width: 937px) {
+  header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+    /* background-color: #49C4D3; */
+  }
+
+  .headerMenu {
+    text-align: center;
+    background: rgba(48,145,255, 0.5);
+    padding-bottom: 30px;
+  }
+
+  .headerList {
+    display: inline-block;
+    margin-top: 40px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .headerProfile {
+    margin-right: 50px;
+  }
+
+  .innerLargeLink:link {
+    color: white;
+  }
+
+  .innerLargeLink:visited {
+    color: white;
+  }
+
+  .innerSmallLink {
+    display: none;
+  }
+
+  .headerCareer {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .headerPortfolio {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .headerContact {
+    margin-left: 30px;
+  }
 }
 
-.headerList {
-  display: inline-block;
-  margin-top: 40px;
+@media screen and (max-width: 699px) {
+  header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    /* background-color: #49C4D3; */
+  }
 
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-}
 
-.headerProfile {
-  margin-right: 50px;
-}
+  .headerMenu {
+    text-align: center;
+    background: rgba(48,145,255, 0.5);
+    padding-bottom: 0px;
+  }
 
-.innerLink:link {
-  color: white;
-}
+  .headerList {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
 
-.innerLink:visited {
-  color: white;
-}
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
 
-.headerCareer {
-  margin-right: 50px;
-  margin-left: 50px;
-}
+  .innerLargeLink {
+    display: none;
+  }
 
-.headerPortfolio {
-  margin-right: 50px;
-  margin-left: 50px;
-}
+  .innerSmallLink {}
 
-.headerContact {
-  margin-left: 50px;
+  .innerSmallLink:link {
+    color: white;
+  }
+
+  .innerSmallLink:visited {
+    color: white;
+  }
+
+  .headerProfile {
+    margin-right: 25px;
+  }
+
+  .headerCareer {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .headerPortfolio {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .headerContact {
+    margin-left: 30px;
+  }
 }

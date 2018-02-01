@@ -12,9 +12,12 @@ class Profile extends Component {
     return (
       <section className="profile" id="profile">
         <Paper zDepth={5} className="profileContent">
+          <div className="venchaaImageSmalls">
+            <img src={profileImage} alt="" className="venchaaImageSmall" />
+          </div>
           <h1 className="ptofileTitle">About me</h1>
           <div className="profileLeft">
-            <h2 className="profileMyname">Sohei Miyakura / 宮倉　宗平</h2>
+            <h2 className="profileMyname">宮倉　宗平</h2>
             <h3 className="profileCareer">フロントエンジニア / システムエンジニア</h3>
             <p className="profileSent1">
               奈良県五條市出身/大阪府大阪市在住<br />

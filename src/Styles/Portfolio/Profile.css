@@ -1,75 +1,250 @@
-.profile {
-  width: 100%;
-  height: 800px;
+@media screen and (min-width: 938px) {
+  .profile {
+    width: 100%;
+    height: 800px;
+  }
+
+  .profileContent {
+    margin: 0 auto;
+    margin-top: -130px;
+    width: 80%;
+    height: 650px;
+    background-color: white;
+    position: relative;
+  }
+
+  .venchaaImageSmall {
+    display: none;
+  }
+
+  .ptofileTitle {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 9%;
+    padding-left: 9%;
+  }
+
+  .profileLeft {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+
+    padding-left: 9%;
+
+    font-weight: bold;
+  }
+
+  .profileMyname {
+    font-size: 27px;
+    margin-top: 30px;
+  }
+
+  .profileCareer {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .profileSent1 {
+    font-size: 14px;
+    margin-top: 8%;
+    line-height: 25px;
+    color: #444444;
+
+  }
+
+  .profileSent2 {
+    font-size: 14px;
+    margin-top: 8%;
+    letter-spacing: -1px;
+    line-height: 25px;
+    color: #444444;
+  }
+
+  .profileSent3 {
+    font-size: 14px;
+    margin-top: 8%;
+    line-height: 25px;
+    color: #444444;
+  }
+
+  .profileImage {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    /* display: inline-block;
+    width: 20%;
+    padding-left: 8%; */
+  }
+
+  .venchaaImage {
+    width: 300px;
+  }
 }
+@media only screen and (min-width: 700px) and (max-width: 937px) {
+  .profile {
+    width: 100%;
+    /* height: 800px; */
+    margin-bottom: 200px;
+  }
 
-.profileContent {
-  margin: 0 auto;
-  margin-top: -130px;
-  width: 80%;
-  height: 650px;
-  background-color: white;
-  position: relative;
+  .profileContent {
+    margin: 0 auto;
+    margin-top: -130px;
+    width: 80%;
+    /* height: 650px; */
+    background-color: white;
+    position: relative;
+
+    padding-bottom: 100px;
+  }
+
+  .venchaaImageSmalls {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .venchaaImageSmall {
+    width: 250px;
+  }
+
+  .ptofileTitle {
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 9%;
+    padding-left: 9%;
+  }
+
+  .profileLeft {
+    display: inline-block;
+    width: 80%;
+    height: 200px;
+
+    padding-left: 9%;
+
+    font-weight: bold;
+  }
+
+  .profileMyname {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .profileCareer {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .profileSent1 {
+    font-size: 14px;
+    margin-top: 8%;
+    line-height: 25px;
+    color: #444444;
+
+  }
+
+  .profileSent2 {
+    font-size: 14px;
+    margin-top: 8%;
+    letter-spacing: -1px;
+    line-height: 25px;
+    color: #444444;
+  }
+
+  .profileSent3 {
+    font-size: 14px;
+    margin-top: 8%;
+    line-height: 25px;
+    color: #444444;
+  }
+
+  .profileImage {
+    display: none;
+  }
+
+  .venchaaImage {
+    width: 300px;
+  }
 }
+@media screen and (max-width: 699px) {
+  .profile {
+    width: 100%;
+    /* height: 800px; */
+    margin-bottom: 100px;
+  }
 
-.ptofileTitle {
-  font-size: 55px;
-  font-weight: bold;
-  padding-top: 9%;
-  padding-left: 9%;
-}
+  .profileContent {
+    margin: 0 auto;
+    margin-top: -130px;
+    width: 80%;
+    /* height: 650px; */
+    background-color: white;
+    position: relative;
 
-.profileLeft {
-  display: inline-block;
-  width: 40%;
-  height: 200px;
+    padding-bottom: 70px;
+  }
 
-  padding-left: 9%;
+  .venchaaImageSmalls {
+    text-align: center;
+    padding-top: 40px;
+  }
+  .venchaaImageSmall {
+    width: 200px;
+  }
 
-  font-weight: bold;
-}
+  .ptofileTitle {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 9%;
+    padding-left: 9%;
+  }
 
-.profileMyname {
-  font-size: 27px;
-  margin-top: 30px;
-}
+  .profileLeft {
+    display: inline-block;
+    width: 80%;
+    height: 200px;
 
-.profileCareer {
-  margin-top: 10px;
-}
+    padding-left: 9%;
 
-.profileSent1 {
-  font-size: 14px;
-  margin-top: 8%;
-  line-height: 25px;
-  color: #444444;
+    font-weight: bold;
+  }
 
-}
+  .profileMyname {
+    font-size: 18px;
+    margin-top: 30px;
+  }
 
-.profileSent2 {
-  font-size: 14px;
-  margin-top: 8%;
-  letter-spacing: -1px;
-  line-height: 25px;
-  color: #444444;
-}
+  .profileCareer {
+    margin-top: 10px;
+    font-size: 15px;
+  }
 
-.profileSent3 {
-  font-size: 14px;
-  margin-top: 8%;
-  line-height: 25px;
-  color: #444444;
-}
+  .profileSent1 {
+    font-size: 12px;
+    margin-top: 8%;
+    line-height: 25px;
+    color: #444444;
 
-.profileImage {
-  position: absolute;
-  top: 30%;
-  right: 10%;
-  /* display: inline-block;
-  width: 20%;
-  padding-left: 8%; */
-}
+  }
 
-.venchaaImage {
-  width: 300px;
+  .profileSent2 {
+    font-size: 12px;
+    margin-top: 8%;
+    letter-spacing: -1px;
+    line-height: 25px;
+    color: #444444;
+  }
+
+  .profileSent3 {
+    font-size: 12px;
+    margin-top: 8%;
+    line-height: 25px;
+    color: #444444;
+  }
+
+  .profileImage {
+    display: none;
+  }
+
+  .venchaaImage {
+    width: 300px;
+  }
 }

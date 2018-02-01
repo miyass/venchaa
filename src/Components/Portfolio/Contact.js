@@ -14,20 +14,28 @@ class Contact extends Component {
           <ul className="contactList">
             <li className="contactIcon facebookIcon">
               <a href="https://www.facebook.com/Vencha.Miyakura">
-                <i className="fa fa-5x fa-facebook-square icon" aria-hidden="true"></i>
+                <i className="fa fa-5x fa-facebook-square iconBig" aria-hidden="true"></i>
+                <i className="fa fa-3x fa-facebook-square iconMedium" aria-hidden="true"></i>
+                <i className="fa fa-2x fa-facebook-square iconSmall" aria-hidden="true"></i>
               </a>
             </li>
             <li className="contactIcon instaIcon">
               <a href="https://www.instagram.com/venchaaa/">
-                <i className="fa fa-5x fa-instagram icon" aria-hidden="true"></i>
+                <i className="fa fa-5x fa-instagram iconBig" aria-hidden="true"></i>
+                <i className="fa fa-3x fa-instagram iconMedium" aria-hidden="true"></i>
+                <i className="fa fa-2x fa-instagram iconSmall" aria-hidden="true"></i>
               </a>
             </li>
             <li className="contactIcon mailIcon">
-              <i className="fa fa-5x fa-envelope icon" aria-hidden="true"></i>
+              <i className="fa fa-5x fa-envelope iconBig" aria-hidden="true"></i>
+              <i className="fa fa-3x fa-envelope iconMedium" aria-hidden="true"></i>
+              <i className="fa fa-2x fa-envelope iconSmall" aria-hidden="true"></i>
             </li>
             <li className="contactIcon githubIcon">
               <a href="https://github.com/miyass">
-                <i className="fa fa-5x fa-github-alt icon" aria-hidden="true"></i>
+                <i className="fa fa-5x fa-github-alt iconBig" aria-hidden="true"></i>
+                <i className="fa fa-3x fa-github-alt iconMedium" aria-hidden="true"></i>
+                <i className="fa fa-2x fa-github-alt iconSmall" aria-hidden="true"></i>
               </a>
             </li>
           </ul>

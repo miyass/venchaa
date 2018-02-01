@@ -1,47 +1,160 @@
-.portfolio {
-  width: 100%;
-  /* height: 3000px; */
-  margin-bottom: 200px;
+@keyframes bg-color {
+  0% { background: #444444; }
+  100% { background: #888888; }
 }
 
-.portfolioContent {
-  margin: 0 auto;
-  width: 80%;
-  /* height: 2800px; */
-  background-color: white;
-}
+@media screen and (min-width: 938px) {
+  .portfolio {
+    width: 100%;
+    /* height: 3000px; */
+    margin-bottom: 200px;
+  }
 
-.portfolioTitle {
-  font-size: 60px;
-  font-weight: bold;
-  padding-top: 100px;
-  padding-left: 100px;
-}
+  .portfolioContent {
+    margin: 0 auto;
+    width: 80%;
+    /* height: 2800px; */
+    background-color: white;
+  }
 
-.profilePhoto {
-  font-size: 30px;
-  font-weight: bold;
-  padding-top: 70px;
-  padding-left: 120px;
-}
+  .portfolioTitle {
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 9%;
+    padding-left: 9%;
+  }
 
-.photoLists {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 80px;
-  width: 100%;
-}
+  .profilePhoto {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-left: 12%;
+  }
 
-.photoList {
-  width: 360px;
-  height: 240px;
-  background-color: #444444;
-  display: inline-block;
-  margin-left: 15px;
-  margin-top: 15px;
-}
+  .photoLists {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 100%;
+  }
 
-.photo {
-  width: 360px;
-  height: 240px;
+  .photoList {
+    width: 360px;
+    height: 240px;
+    background-color: #444444;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+
+    animation: bg-color 0.7s infinite;
+    -webkit-animation: bg-color 0.7s infinite;
+  }
+
+  .photo {
+    width: 360px;
+    height: 240px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 937px) {
+  .portfolio {
+    width: 100%;
+    /* height: 3000px; */
+    margin-bottom: 150px;
+  }
+
+  .portfolioContent {
+    margin: 0 auto;
+    width: 80%;
+    /* height: 2800px; */
+    background-color: white;
+  }
+
+  .portfolioTitle {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 15%;
+    padding-left: 9%;
+  }
+
+  .profilePhoto {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-left: 12%;
+  }
+
+  .photoLists {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 100%;
+  }
+
+  .photoList {
+    width: 360px;
+    height: 240px;
+    background-color: #444444;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+
+    animation: bg-color 0.7s infinite;
+    -webkit-animation: bg-color 0.7s infinite;
+  }
+
+  .photo {
+    width: 360px;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .portfolio {
+    width: 100%;
+    /* height: 3000px; */
+    margin-bottom: 100px;
+  }
+
+  .portfolioContent {
+    margin: 0 auto;
+    width: 80%;
+    /* height: 2800px; */
+    background-color: white;
+  }
+
+  .portfolioTitle {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 15%;
+    padding-left: 9%;
+  }
+
+  .profilePhoto {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 7%;
+    padding-left: 9%;
+  }
+
+  .photoLists {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 100%;
+  }
+
+  .photoList {
+    width: 300px;
+    height: 200px;
+    background-color: #444444;
+    display: inline-block;
+    margin-top: 15px;
+
+    animation: bg-color 0.7s infinite;
+    -webkit-animation: bg-color 0.7s infinite;
+  }
+
+  .photo {
+    width: 300px;
+    height: 200px;
+  }
 }

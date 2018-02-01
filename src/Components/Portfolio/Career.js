@@ -6,6 +6,7 @@ import '../../Styles/Portfolio/Main.css';
 import '../../Styles/Portfolio/Career.css';
 
 import CareerImage from '../../Images/Portfolio/Career.svg';
+import CareerSmallImage from '../../Images/Portfolio/CareerSmall.svg';
 
 class Career extends Component {
   render() {
@@ -13,6 +14,7 @@ class Career extends Component {
       <section className="career" id="career">
         <Paper zDepth={5} className="careerContent">
           <img src={CareerImage} alt="" className="careerImage"/>
+          <img src={CareerSmallImage} alt="" className="careerSmallImage"/>
           <h1 className="careerTitle">Career</h1>
           <h2 className="careerSubtitle">Main Activity / 大学での主な活動</h2>
           <div className="careerMain">
@@ -56,7 +58,6 @@ class Career extends Component {
               <p className="careerMainSent">
                 2018年1月より、UI/UXデザイナーとしても活動開始。現地でのユーザーインタビューなどの活動を行なっています。
               </p>
-
             </div>
           </div>
         </Paper>
