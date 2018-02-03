@@ -10,7 +10,7 @@ class Contact extends Component {
     return(
       <section className="contact" id="contact">
         <Paper zDepth={5} className="contactContent">
-          <h1 className="contactTitle">Contact</h1>
+          <h1 className="contactTitle">Contactです！</h1>
           <ul className="contactList">
             <li className="contactIcon facebookIcon">
               <a href="https://www.facebook.com/Vencha.Miyakura">
