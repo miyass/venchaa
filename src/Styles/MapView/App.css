@@ -1,0 +1,17 @@
+.mapAll {
+  position: relative;
+}
+
+.japan {
+  position: absolute;
+  background-color: blue;
+  z-index: -1;
+}
+
+.広島県 {
+  fill: red;
+}
+
+.沖縄県 {
+  fill: red;
+}
