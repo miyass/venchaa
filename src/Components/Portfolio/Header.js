@@ -14,7 +14,7 @@ class Header extends Component {
                 About me
               </a>
               <a href="#profile" className="innerSmallLink">
-                <i className="fa fa-2x fa-user"></i>
+                <i className="fa fa-1x fa-user"></i>
               </a>
             </li>
             <li className="headerList headerCareer">
@@ -22,7 +22,7 @@ class Header extends Component {
                 Career
               </a>
               <a href="#career" className="innerSmallLink">
-                <i className="fa fa-2x fa-briefcase"></i>
+                <i className="fa fa-1x fa-briefcase"></i>
               </a>
             </li>
             <li className="headerList headerPortfolio">
@@ -30,7 +30,7 @@ class Header extends Component {
                 Portfolio
               </a>
               <a href="#portfolio" className="innerSmallLink">
-                <i className="fa fa-2x fa-camera"></i>
+                <i className="fa fa-1x fa-camera"></i>
               </a>
             </li>
             <li className="headerList headerContact">
@@ -38,7 +38,7 @@ class Header extends Component {
                 Contact
               </a>
               <a href="#contact" className="innerSmallLink">
-                <i className="fa fa-2x fa-comments"></i>
+                <i className="fa fa-1x fa-comments"></i>
               </a>
             </li>
           </ul>

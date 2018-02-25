@@ -173,8 +173,9 @@
   }
 
   .contactList {
+    margin: 0 auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     padding-bottom: 50px;
   }
 
@@ -184,29 +185,28 @@
     background-color: red;
     height: 60px;
     width: 60px;
-
   }
 
   .facebookIcon {
     background-color: #3091FF;
-    margin-right: 2%;
+    margin-right: 7px;
   }
 
   .instaIcon {
     background-color: #FF6400;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 7px;
+    margin-left: 7px;
   }
 
   .mailIcon {
     background-color: #38BD00;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 7px;
+    margin-left: 7px;
   }
 
   .githubIcon {
     background-color: #8226FF;
-    margin-left: 2%;
+    margin-left: 7px;
   }
 
   .iconBig {

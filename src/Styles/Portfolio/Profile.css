@@ -214,11 +214,11 @@
 
   .profileCareer {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .profileSent1 {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 8%;
     line-height: 25px;
     color: #444444;
@@ -226,7 +226,7 @@
   }
 
   .profileSent2 {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 8%;
     letter-spacing: -1px;
     line-height: 25px;
@@ -234,7 +234,7 @@
   }
 
   .profileSent3 {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 8%;
     line-height: 25px;
     color: #444444;

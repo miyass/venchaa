@@ -10,7 +10,7 @@ class Contact extends Component {
     return(
       <section className="contact" id="contact">
         <Paper zDepth={5} className="contactContent">
-          <h1 className="contactTitle">Contactです！</h1>
+          <h1 className="contactTitle">Contact</h1>
           <ul className="contactList">
             <li className="contactIcon facebookIcon">
               <a href="https://www.facebook.com/Vencha.Miyakura">
@@ -27,9 +27,11 @@ class Contact extends Component {
               </a>
             </li>
             <li className="contactIcon mailIcon">
-              <i className="fa fa-5x fa-envelope iconBig" aria-hidden="true"></i>
-              <i className="fa fa-3x fa-envelope iconMedium" aria-hidden="true"></i>
-              <i className="fa fa-2x fa-envelope iconSmall" aria-hidden="true"></i>
+              <a href="mailto:exe.miyakura0629@gmail.com">
+                <i className="fa fa-5x fa-envelope iconBig" aria-hidden="true"></i>
+                <i className="fa fa-3x fa-envelope iconMedium" aria-hidden="true"></i>
+                <i className="fa fa-2x fa-envelope iconSmall" aria-hidden="true"></i>
+              </a>
             </li>
             <li className="contactIcon githubIcon">
               <a href="https://github.com/miyass">

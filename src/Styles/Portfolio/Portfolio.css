@@ -131,20 +131,20 @@
   .profilePhoto {
     font-size: 20px;
     font-weight: bold;
-    padding-top: 7%;
+    padding-top: 10%;
     padding-left: 9%;
   }
 
   .photoLists {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5%;
     padding-bottom: 80px;
     width: 100%;
   }
 
   .photoList {
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 180px;
     background-color: #444444;
     display: inline-block;
     margin-top: 15px;
@@ -154,7 +154,7 @@
   }
 
   .photo {
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 180px;
   }
 }

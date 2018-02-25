@@ -239,7 +239,7 @@
     width: 200%;
     height: 15%;
     background: #3091ff;
-    margin-left: -50%;
+    margin-left: -60%;
     box-shadow: 0px 10px 5px -5px rgba(0,0,0,.2);
     transform: rotate(-16deg);
     z-index: -2;
@@ -256,20 +256,20 @@
   }
 
   .title {
+    text-align: center;
     font-size: 40px;
     font-weight: bold;
     color: white;
 
-    padding-top: 250px;
-    padding-left: 30px;
+    padding-top: 220px;
   }
 
   .subTitle {
+    text-align: center;
     font-size: 18px;
     font-weight: bold;
     color: white;
 
     padding-top: 20px;
-    padding-left: 40px;
   }
 }

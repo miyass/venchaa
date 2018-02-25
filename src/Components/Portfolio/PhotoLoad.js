@@ -26,20 +26,38 @@ import Image18 from '../../Images/Portfolio/image18.jpg';
 import Image19 from '../../Images/Portfolio/image19.jpg';
 import Image20 from '../../Images/Portfolio/image20.jpg';
 import Image21 from '../../Images/Portfolio/image21.jpg';
-import Image22 from '../../Images/Portfolio/image22.jpg';
-import Image23 from '../../Images/Portfolio/image23.jpg';
 
 
 export default class PhotoLoad extends Component {
 
   render() {
     const Photos = [
-      { photo: Image1 },{ photo: Image2 },{ photo: Image3 },{ photo: Image4 },{ photo: Image5 },{ photo: Image6 },{ photo: Image7 },{ photo: Image8 },{ photo: Image9 },{ photo: Image10 },{ photo: Image11 },{ photo: Image12 },{ photo: Image13 },{ photo: Image14 },{ photo: Image15 },{ photo: Image16 },{ photo: Image17 },{ photo: Image18 },{ photo: Image19 },{ photo: Image20 },{ photo: Image21 },{ photo: Image22 },{ photo: Image23 },
+      { photo: Image1 },
+      { photo: Image2 },
+      { photo: Image3 },
+      { photo: Image4 },
+      { photo: Image5 },
+      { photo: Image6 },
+      { photo: Image7 },
+      { photo: Image8 },
+      { photo: Image9 },
+      { photo: Image10 },
+      { photo: Image11 },
+      { photo: Image12 },
+      { photo: Image13 },
+      { photo: Image14 },
+      { photo: Image15 },
+      { photo: Image16 },
+      { photo: Image17 },
+      { photo: Image18 },
+      { photo: Image19 },
+      { photo: Image20 },
+      { photo: Image21 },
     ]
 
     const photoList = [];
 
-    for (var i = 0; i <= 22; i++) {
+    for (var i = 0; i <= 20; i++) {
       photoList.push(
         <li className="photoList" key={i}>
           <Lazyload throttle={200} height={300}>
