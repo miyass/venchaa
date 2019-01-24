@@ -3,17 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "d3": "^3.5.17",
-    "jquery": "^3.3.1",
-    "material-ui": "^0.20.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-lazyload": "^2.3.0",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.0",
-    "topojson": "^1.6.27",
-    "topojson-client": "^3.0.0"
+    "antd": "^3.10.4",
+    "axios": "^0.18.0",
+    "gsap": "^2.0.2",
+    "react": "^16.6.1",
+    "react-addons-transition-group": "^15.6.2",
+    "react-dom": "^16.6.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
