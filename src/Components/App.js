@@ -10,6 +10,7 @@ import ProductAutocompleteKintone from './Portfolio/Products/AutocompleteKintone
 import ProductPortfolio from './Portfolio/Products/Portfolio';
 import PortfolioPhotograph from './Portfolio/Contents/PortfolioPhotograph';
 import GoalApp from './Goal/App';
+import VentakuApp from './Ventaku/App';
 
 const browserHistory = createBrowserHistory();
 
@@ -29,6 +30,7 @@ class App extends Component {
           <Route exact path="/product/portfolio" component={ProductPortfolio} />
           <Route exact path="/photograph" component={PortfolioPhotograph} />
           <Route exact path="/goal" component={GoalApp} />
+          <Route exact path="/ventaku" component={VentakuApp} />
         </div>
       </Router>
     );
